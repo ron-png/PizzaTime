@@ -34,7 +34,15 @@ while rightInput:
 
     #give no pizza :(
     elif "NO" in pizzaTime.upper():
-        print("Your loss :(")
+        print('''     .-""""""-. \n'''+
+'''   .'          '. \n'''+
+'''  /   O      O   \ \n'''+
+''' :           `    : \n'''+
+''' |                |    \n'''+
+''' :    .------.    : \n'''+
+'''  \  '        '  / \n'''+
+'''   '.          .' \n'''+
+'''     '-......-' ''')
         rightInput = False
 
     elif "EXIT" in pizzaTime.upper():
@@ -42,4 +50,6 @@ while rightInput:
 
     #If the answer to question was wrong, go Back to top...
     else:
-        print('"You can only answer with "Yes", "No" or "Exit"."')
+        input('''You can only answer with "Yes", "No" or "Exit". \n ''' +
+        '''(press ENTER to continue)''')
+input("(press ENTER to exit)")
