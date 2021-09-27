@@ -37,6 +37,6 @@ while rightInput:
     elif "EXIT" in pizzaTime.upper():
         rightInput = False
 
-    #If the answer do you want pizza was wrong, go Back to top
+    #If the answer to question was wrong, go Back to top...
     else:
         print('"You can only answer with "Yes", "No" or "Exit"."')
