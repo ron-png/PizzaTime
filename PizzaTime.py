@@ -40,11 +40,3 @@ while rightInput:
     #If the answer to question was wrong, go Back to top...
     else:
         print('"You can only answer with "Yes", "No" or "Exit"."')
-
-
-
-
-
-
-        ###TESTTERRRR YEEE NAOIIEFea
-        
