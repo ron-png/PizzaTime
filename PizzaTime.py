@@ -1,11 +1,12 @@
-rightInput=True
+rightInput = True
 
 while rightInput:
+
     # ask if user wants pizza
     pizzaTime=str(input("Do you want pizza? (Yes/No) \n")) 
 
     #give pizza
-    if  pizzaTime.upper() == str("JA") or str("J"):
+    if "Y" in pizzaTime.upper():
         print("                                     ._ \n"+
 "                                   ,(  `-.\n"+
 "                                 ,': `.   `.\n"+
@@ -26,12 +27,12 @@ while rightInput:
 "    ,,~\n"+
 "    i'\n"+
 "    :\n")  
-        rightInput=False
+        rightInput = False
 
     #give no pizza :(
-    elif pizzaTime.upper()=="NEIN" or "N" or "NO":
+    elif pizzaTime.upper() == "N":
         print("Your loss :(")
-        rightInput=False
+        rightInput = False
 
     #If the answer do you want pizza was wrong, go Back to top
     else:
