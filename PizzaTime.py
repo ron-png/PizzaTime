@@ -1,15 +1,17 @@
-# To Do: Accept "n" and "y" as answers too.
-
-
+# Variables needed to check if the right Input was given 
 rightInput = True
+yes = {"YES", "Y", "YE", ""}
+no = {"NO", "N"}
+getout = {"EXIT", "E", "EXI", "EX"}
 
+#While loop in case of User typing the wrong input
 while rightInput:
 
     # ask if user wants pizza
-    pizzaTime=str(input("Do you want pizza? (Yes/No) \n")) 
+    pizzaTime = input("Do you want pizza? [Yes/No] \n")
 
     #give pizza
-    if "YES" in pizzaTime.upper():
+    if pizzaTime.upper() in yes:
         print("                                     ._ \n"+
         "                                   ,(  `-.\n"+
         "                                 ,': `.   `.\n"+
@@ -33,7 +35,7 @@ while rightInput:
         rightInput = False
 
     #give no pizza :(
-    elif "NO" in pizzaTime.upper():
+    elif pizzaTime.upper() in no:
         print('''        .-""""""-. \n'''+
         '''      .'          '. \n'''+
         '''     /   O      O   \ \n'''+
@@ -45,11 +47,12 @@ while rightInput:
         '''        '-......-' ''')
         rightInput = False
 
-    elif "EXIT" in pizzaTime.upper():
+    #exit commnand
+    elif pizzaTime.upper() in getout:
         rightInput = False
 
     #If the answer to question was wrong, go Back to top...
     else:
-        input('''You can only answer with "Yes", "No" or "Exit". \n ''' +
+        input('''You can only answer with "[Y]es", "[N]o" or "[E]xit". \n ''' +
         '''(press ENTER to continue)''')
-input("(press ENTER to exit)")
+input(" (press ENTER to exit)")
