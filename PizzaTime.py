@@ -1,3 +1,6 @@
+# To Do: Accept "n" and "y" as answers too.
+
+
 rightInput = True
 
 while rightInput:
