@@ -1,5 +1,6 @@
 # Variables needed to check if the right Input was given 
 rightInput = True
+tryAgainRightInput = True
 yes = {"YES", "Y", "YE", ""}
 no = {"NO", "N"}
 getout = {"EXIT", "E", "EXI", "EX"}
@@ -8,7 +9,7 @@ getout = {"EXIT", "E", "EXI", "EX"}
 while rightInput:
 
     # ask if user wants pizza
-    pizzaTime = input("Do you want pizza? [Yes/No] \n")
+    pizzaTime = input("Do you want pizza? [Yes/No/Exit] \n")
 
     #give pizza
     if pizzaTime.upper() in yes:
@@ -32,9 +33,19 @@ while rightInput:
         "    ,,~\n"+
         "    i'\n"+
         "    :\n")  
-        tryagain = input("Try again? [Yes/No] \n")
-        if tryagain.upper() in no:
-            rightInput = False
+
+        # Try again?
+        while tryAgainRightInput:
+            tryagain = input("Try again? [Yes/No] \n")
+            if tryagain.upper() in no:
+                rightInput = False
+                tryAgainRightInput = False
+            elif tryagain.upper() in yes:
+                tryAgainRightInput = False
+            else:
+                input('''You can only answer with "[Y]es" or "[N]o". \n''' +
+            ''' (press ENTER to continue)''')
+        tryAgainRightInput = True
 
     #give no pizza :(
     elif pizzaTime.upper() in no:
@@ -47,9 +58,19 @@ while rightInput:
         '''     \  '        '  / \n'''+
         '''      '.          .' \n'''+
         '''        '-......-' ''')
-        tryagain = input("Try again? [Yes/No] \n")
-        if tryagain.upper() in no:
-            rightInput = False
+
+        # Try again?
+        while tryAgainRightInput:
+            tryagain = input("Try again? [Yes/No] \n")
+            if tryagain.upper() in no:
+                rightInput = False
+                tryAgainRightInput = False
+            elif tryagain.upper() in yes:
+                tryAgainRightInput = False
+            else:
+                input('''You can only answer with "[Y]es" or "[N]o". \n''' +
+            ''' (press ENTER to continue)''')
+        tryAgainRightInput = True
 
     #exit commnand
     elif pizzaTime.upper() in getout:
