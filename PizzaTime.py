@@ -32,11 +32,13 @@ while rightInput:
         "    ,,~\n"+
         "    i'\n"+
         "    :\n")  
-        rightInput = False
+        tryagain = input("Try again? [Yes/No] \n")
+        if tryagain.upper() in no:
+            rightInput = False
 
     #give no pizza :(
     elif pizzaTime.upper() in no:
-        print('''        .-""""""-. \n'''+
+        print('''Your loss.\n        .-""""""-. \n'''+
         '''      .'          '. \n'''+
         '''     /   O      O   \ \n'''+
         '''    :           `    : \n'''+
@@ -45,7 +47,9 @@ while rightInput:
         '''     \  '        '  / \n'''+
         '''      '.          .' \n'''+
         '''        '-......-' ''')
-        rightInput = False
+        tryagain = input("Try again? [Yes/No] \n")
+        if tryagain.upper() in no:
+            rightInput = False
 
     #exit commnand
     elif pizzaTime.upper() in getout:
@@ -53,6 +57,6 @@ while rightInput:
 
     #If the answer to question was wrong, go Back to top...
     else:
-        input('''You can only answer with "[Y]es", "[N]o" or "[E]xit". \n ''' +
-        '''(press ENTER to continue)''')
+        input('''You can only answer with "[Y]es", "[N]o" or "[E]xit". \n''' +
+        ''' (press ENTER to continue)''')
 input(" (press ENTER to exit)")
