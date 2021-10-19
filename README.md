@@ -36,4 +36,5 @@ Sad by Joan Stark
       \  '        '  /
        '.          .'
          '-......-'
+         
 _Source: https://www.asciiart.eu/computers/smileys_
