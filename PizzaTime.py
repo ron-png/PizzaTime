@@ -1,9 +1,9 @@
 # Variables needed to check if the right Input was given 
 rightInput = True
 tryAgainRightInput = True
-yes = {"YES", "Y", "YE", ""}
-no = {"NO", "N"}
-getout = {"EXIT", "E", "EXI", "EX"}
+yes = ["YES", "Y", "YE", ""]
+no = ["NO", "N"]
+getout = ["EXIT", "E", "EXI", "EX"]
 
 #While loop in case of User typing the wrong input
 while rightInput:
