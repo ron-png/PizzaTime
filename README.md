@@ -24,7 +24,7 @@ You can download the latest Version here: https://github.com/ron-png/PizzaTime/r
     ,,~
     i'
     :
-Source: https://ascii.co.uk/art/pizza
+_Source: https://ascii.co.uk/art/pizza_
 ### Sad by Joan Stark
      .-""""""-.
    .'          '.
@@ -35,5 +35,4 @@ Source: https://ascii.co.uk/art/pizza
   \  '        '  /
    '.          .'
      '-......-'
-
-Source: https://www.asciiart.eu/computers/smileys
+_Source: https://www.asciiart.eu/computers/smileys_
