@@ -27,7 +27,8 @@ i'
 :
 ```
 _Source: https://ascii.co.uk/art/pizza_
-<p>Sad by Joan Stark
+<p>
+Sad by Joan Stark
 ```
     .-""""""-.
   .'          '.
