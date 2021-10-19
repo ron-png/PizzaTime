@@ -4,6 +4,7 @@ Little Python project, that outputs Pizza ASCII art, if you want Pizza.
 You can download the latest Version here: https://github.com/ron-png/PizzaTime/releases
 
 ## Art used in this Project:
+
 ```
                                  ._
                                ,(  `-.
@@ -27,8 +28,10 @@ i'
 :
 ```
 _Source: https://ascii.co.uk/art/pizza_
-<p>
+
+<br>
 Sad by Joan Stark
+
 ```
     .-""""""-.
   .'          '.
@@ -40,5 +43,4 @@ Sad by Joan Stark
   '.          .'
     '-......-'
 ```
-<p>
 _Source: https://www.asciiart.eu/computers/smileys_
