@@ -26,7 +26,7 @@ You can download the latest Version here: https://github.com/ron-png/PizzaTime/r
     :
 _Source: https://ascii.co.uk/art/pizza_
 
-##### Sad by Joan Stark
+#### Sad by Joan Stark
          .-""""""-.
        .'          '.
       /   O      O   \
