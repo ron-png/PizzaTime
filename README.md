@@ -28,14 +28,14 @@ _Source: https://ascii.co.uk/art/pizza_
 
 Sad by Joan Stark
 ```
-     .-""""""-.
-   .'          '.
-  /   O      O   \
- :           `    :
- |                |  
- :    .------.    :
-  \  '        '  /
-   '.          .'
-     '-......-'
+    .-""""""-.
+  .'          '.
+ /   O      O   \
+:           `    :
+|                |  
+:    .------.    :
+ \  '        '  /
+  '.          .'
+    '-......-'
 ```
 _Source: https://www.asciiart.eu/computers/smileys_
