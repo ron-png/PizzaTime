@@ -30,10 +30,10 @@ Source: https://ascii.co.uk/art/pizza
    .'          '.
   /   O      O   \
  :           `    :
- |                |   sad
+ |                |  
  :    .------.    :
   \  '        '  /
    '.          .'
-jgs  '-......-'
+     '-......-'
 
 Source: https://www.asciiart.eu/computers/smileys
