@@ -2,8 +2,9 @@
 rightInput = True
 yes = ["YES", "Y", "YE", ""]
 no = ["NO", "N"]
-
 getout = ["EXIT", "E", "EXI", "EX"]
+
+# Function for "try again"
 def yesno():
     global rightInput
     tryAgainRightInput = True
@@ -64,7 +65,7 @@ while rightInput:
 
         # Try again?
         yesno()
-        
+
     #exit commnand
     elif pizzaTime.upper() in getout:
         rightInput = False
