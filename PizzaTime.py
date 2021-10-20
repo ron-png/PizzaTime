@@ -1,9 +1,22 @@
 # Variables needed to check if the right Input was given 
 rightInput = True
-tryAgainRightInput = True
 yes = ["YES", "Y", "YE", ""]
 no = ["NO", "N"]
+
 getout = ["EXIT", "E", "EXI", "EX"]
+def yesno():
+    global rightInput
+    tryAgainRightInput = True
+    while tryAgainRightInput:
+        tryagain = input("Try again? [Yes/No] \n")
+        if tryagain.upper() in no:
+            rightInput = False
+            tryAgainRightInput = False
+        elif tryagain.upper() in yes:
+            tryAgainRightInput = False
+        else:
+            input('''You can only answer with "[Y]es" or "[N]o". \n''' +
+        ''' (press ENTER to continue)''')
 
 #While loop in case of User typing the wrong input
 while rightInput:
@@ -35,17 +48,7 @@ while rightInput:
         "    :\n")  
 
         # Try again?
-        while tryAgainRightInput:
-            tryagain = input("Try again? [Yes/No] \n")
-            if tryagain.upper() in no:
-                rightInput = False
-                tryAgainRightInput = False
-            elif tryagain.upper() in yes:
-                tryAgainRightInput = False
-            else:
-                input('''You can only answer with "[Y]es" or "[N]o". \n''' +
-            ''' (press ENTER to continue)''')
-        tryAgainRightInput = True
+        yesno()
 
     #give no pizza :(
     elif pizzaTime.upper() in no:
@@ -60,18 +63,8 @@ while rightInput:
         '''        '-......-' ''')
 
         # Try again?
-        while tryAgainRightInput:
-            tryagain = input("Try again? [Yes/No] \n")
-            if tryagain.upper() in no:
-                rightInput = False
-                tryAgainRightInput = False
-            elif tryagain.upper() in yes:
-                tryAgainRightInput = False
-            else:
-                input('''You can only answer with "[Y]es" or "[N]o". \n''' +
-            ''' (press ENTER to continue)''')
-        tryAgainRightInput = True
-
+        yesno()
+        
     #exit commnand
     elif pizzaTime.upper() in getout:
         rightInput = False
