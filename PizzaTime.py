@@ -74,4 +74,5 @@ while rightInput:
     else:
         input('''You can only answer with "[Y]es", "[N]o" or "[E]xit". \n''' +
         ''' (press ENTER to continue)''')
+        
 input(" (press ENTER to exit)")
